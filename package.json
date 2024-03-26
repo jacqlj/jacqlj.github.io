@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "typescript": "^5.4.2",
     "vite": "^5.1.6"
   },
@@ -16,5 +19,6 @@
     "@types/jquery": "^3.5.29",
     "@types/jqueryui": "^1.12.21",
     "jquery": "^3.7.1"
-  }
+  },
+  "homepage": "https://jacqlj.github.io/"
 }

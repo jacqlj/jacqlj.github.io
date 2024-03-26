@@ -46,4 +46,8 @@ function load() {
             });
         $('.page').hide();
     })
+
+    $(document).on('scroll', function() {
+        console.log('hi');
+    })
 }
