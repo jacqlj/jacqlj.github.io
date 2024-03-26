@@ -173,7 +173,18 @@ body > div {
     margin-right: 0.25rem;
 }
 
-.small {
+#page-abt .small {
     font-size: 80%;
     line-height: 80%;
+}
+
+#page-cnt .contact-item {
+    display: flex;
+    column-gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+#page-cnt .icon-holder {
+    width: 1.5rem;
+    text-align: center;
 }
